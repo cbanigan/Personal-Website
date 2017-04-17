@@ -60,7 +60,7 @@ header {
 	border-top-color: rgba(255,255,255,0.5);
 	border-bottom-color: rgba(255,255,255,0.5);
     animation: pop-in .6s cubic-bezier(0, 0.9, 0.3, 1.2) forwards;
-   opacity: 0;
+    opacity: 0;
     animation-delay: .5s;
 }
 
@@ -96,6 +96,10 @@ header {
 
 .selected {
     color: white;
+    border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-top-color: rgba(255,255,255,0.5);
+	border-bottom-color: rgba(255,255,255,0.5);
 }
 
 .main-list-item a:link {
@@ -155,15 +159,21 @@ header {
     transition: all 0.2s;
 }
 
-.title {
-    margin-bottom: 0.25em;
+.block-text {
+    margin: auto;
+    font-size: 18px;
+    display: flex;
+    max-width: 800px;
+    padding: 50px;
 }
 
-.block-text {
-    margin: 0 30%;
-    padding: 2em 0;
-    text-align: center;
-    font-size: 18px;
+.title-text {
+    flex: 1;
+    margin-top: 0.25em;
+}
+
+.body-text {
+    flex: 2.5;
 }
 
 .contact {
