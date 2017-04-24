@@ -234,3 +234,30 @@ a:hover {
 .social-media li{
     display: inline;
 }
+
+.project-image {
+    float: left;
+    margin-top: 1px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+}
+
+.fancy-button {
+    color: white;
+    display: inline-block;
+    padding: 20px 40px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    font-size: 20px;
+    transition: all 0.3s;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.fancy-button:hover {
+    transition: all 0.3s;
+    background-color: white;
+    border-color: #AAAAAA;
+    color: #AAAAAA;
+    cursor: pointer;
+}
