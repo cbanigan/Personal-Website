@@ -4,7 +4,7 @@
 }
 
 html {
-    background-color: #AAAAAA;
+    background-color: #EEEEEE;
     font-size: 100%;
     font-family: 'Crimson Text', serif;
 }
@@ -98,8 +98,7 @@ header {
     color: white;
     border-bottom-width: 2px;
 	border-bottom-style: solid;
-	border-top-color: rgba(255,255,255,0.5);
-	border-bottom-color: rgba(255,255,255,0.5);
+	border-bottom-color: #96C502;
 }
 
 .main-list-item a:link {
@@ -164,16 +163,7 @@ header {
     font-size: 18px;
     display: flex;
     max-width: 800px;
-    padding: 50px;
-}
-
-.title-text {
-    flex: 1;
-    margin-top: 0.25em;
-}
-
-.body-text {
-    flex: 2.5;
+    margin-bottom: 80px;
 }
 
 .contact {
@@ -234,4 +224,28 @@ a:hover {
 .social-media li{
     display: inline;
     margin: 0 0.2em;
+}
+
+.green {
+    color: #96C502;
+}
+
+.white {
+    color: white;
+}
+
+.mini-header {
+    padding: 50px;
+    text-align: center;
+}
+
+.mini-header-text {
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+
+.mini-header-bar {
+    margin: 0 40%;
+    border-top: 2px solid #96C502;
+    margin-top: -0.25em;
 }
