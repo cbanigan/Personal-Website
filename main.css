@@ -27,9 +27,27 @@ html {
     text-align: center;
 }
 
-header {
+.index-background {
     background: url(7Ry547t.jpg) no-repeat center center fixed;
     background-size: cover;
+}
+
+.about-background {
+    background: url(7456307eabbee46c2d78d62d1b3ad1cb.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.projects-background {
+    background: url(iphone_ipad_apple_watches_stylus_pen_style_99204_3648x2736.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.resume-background {
+    background: url(40182798-typewriter-wallpapers.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+header {
     padding: 280px 0 200px 0;
     background-color: #888888;
     text-transform: uppercase;
@@ -207,6 +225,10 @@ a:hover {
   }
 }
 
+.email {
+    padding-top: 2em;
+}
+
 .email-icon {
     margin-top: 0.5em;
 }
@@ -234,6 +256,10 @@ a:hover {
     color: white;
 }
 
+.center-text {
+    text-align: center;
+}
+
 .mini-header {
     padding: 50px;
     text-align: center;
@@ -248,4 +274,23 @@ a:hover {
     margin: 0 40%;
     border-top: 2px solid #96C502;
     margin-top: -0.25em;
+}
+
+.flex-box {
+    display: flex;
+    padding-bottom: 4em;
+}
+
+.flex-item {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.flex-image {
+    max-width: 100%;
+}
+
+.about {
+    margin: auto;
+    max-width: 1000px;
 }
