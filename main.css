@@ -294,3 +294,89 @@ a:hover {
     margin: auto;
     max-width: 1000px;
 }
+
+.circle {
+    border: 4px solid white;
+    border-radius: 50%;
+}
+
+.fancy-button {
+    color: white;
+    display: inline-block;
+    padding: 20px 40px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    font-size: 20px;
+    transition: all 0.3s;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.fancy-button:hover {
+    transition: all 0.3s;
+    background-color: white;
+    color: #AAAAAA;
+    cursor: pointer;
+}
+
+/* resume stuff here */
+
+.resume {
+}
+
+.resume-block {
+    flex: 1;
+    margin: auto;
+    font-size: 18px;
+    display: flex;
+    max-width: 980px;
+    margin-bottom: 80px;
+}
+
+.resume-title {
+    flex: 2;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.resume-items {
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+}
+
+.resume-item-container {
+    display: flex;
+    padding-bottom: 2em;
+}
+
+.resume-item {
+    flex: 4;
+}
+
+.item-name {
+    color: #96C502;
+}
+
+.item-info {
+    font-style: italic;
+    margin-top: 0.1em;
+}
+
+.item-description {
+    
+}
+
+.resume-item-sidebar {
+    flex: 1;
+    color: #666666;
+}
+
+.item-dates {
+    
+}
+
+.item-location {
+    
+}
