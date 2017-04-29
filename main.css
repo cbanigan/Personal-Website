@@ -226,7 +226,7 @@ a:hover {
 }
 
 .email {
-    padding-top: 2em;
+    padding-top: 1em;
 }
 
 .email-icon {
@@ -301,12 +301,15 @@ a:hover {
 }
 
 .fancy-button {
-    color: white;
+    margin-top: -2em;
+    margin-bottom: 4em;
+    color: #96C502;
+    font-weight: bold;
     display: inline-block;
     padding: 20px 40px;
     border-width: 2px;
     border-style: solid;
-    border-color: white;
+    border-color: #96C502;
     font-size: 20px;
     transition: all 0.3s;
     background-color: rgba(255, 255, 255, 0);
@@ -314,9 +317,14 @@ a:hover {
 
 .fancy-button:hover {
     transition: all 0.3s;
-    background-color: white;
-    color: #AAAAAA;
+    background-color: #96C502;
+    color: white;
     cursor: pointer;
+}
+
+.project-button {
+    margin-top: 3em;
+    margin-bottom: 0;
 }
 
 video {
