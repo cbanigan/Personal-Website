@@ -319,6 +319,10 @@ a:hover {
     cursor: pointer;
 }
 
+video {
+    margin-bottom: 5em;
+}
+
 /* resume stuff here */
 
 .resume {
