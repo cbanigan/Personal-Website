@@ -469,7 +469,7 @@ video {
     }
 }
 
-@media (max-width: 720px){
+@media (max-width: 740px){
     video {
         width: 100%;
     }
