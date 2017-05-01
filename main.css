@@ -253,6 +253,7 @@ a:hover {
 }
 
 .center-text {
+    padding: 0 3em 3em 3em;
     text-align: center;
 }
 
@@ -433,11 +434,6 @@ video {
     .about-description {
         order: 3;
         margin: 0 3em;
-        text-align: center;
-    }
-    
-    .intro-text {
-        margin: 0 3em 4em 3em;
         text-align: center;
     }
     
