@@ -28,22 +28,22 @@ html {
 }
 
 .index-background {
-    background: url(7Ry547t.jpg) no-repeat center center fixed;
+    background: url(../images/index-background.jpg) no-repeat center center fixed;
     background-size: cover;
 }
 
 .about-background {
-    background: url(7456307eabbee46c2d78d62d1b3ad1cb.jpg) no-repeat center center fixed;
+    background: url(../images/about-background.jpg) no-repeat center center fixed;
     background-size: cover;
 }
 
 .projects-background {
-    background: url(iphone_ipad_apple_watches_stylus_pen_style_99204_3648x2736.jpg) no-repeat center center fixed;
+    background: url(../images/projects-background.jpg) no-repeat center center fixed;
     background-size: cover;
 }
 
 .resume-background {
-    background: url(40182798-typewriter-wallpapers.jpg) no-repeat center center fixed;
+    background: url(../images/resume-background.jpg) no-repeat center center fixed;
     background-size: cover;
 }
 
